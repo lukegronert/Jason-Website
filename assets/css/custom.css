@@ -1,0 +1,10 @@
+@media (min-width: 500px) {
+    .bio-paragraph {
+        margin-left: 50px;
+    }
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}

@@ -10,6 +10,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/navbar.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
@@ -21,14 +22,17 @@
 					<p>Headline text for people to read<br />
 					that sounds super cool</p>
 					<ul class="actions">
-						<li><a href="./index.html" class="button primary icon solid fa-download">Home</a></li>
-						<li><a href="./bio.html" class="button primary icon solid fa-download">About</a></li>
-						<li><a href="./recommendations.html" class="button primary icon solid fa-download">Recommendations</a></li>
-						<li><a href="#one" class="button icon solid fa-chevron-down scrolly">Learn More</a></li>
+						<li><a href="#navbar" class="button icon solid fa-chevron-down scrolly">Learn More</a></li>
 					</ul>
 				</div>
-				<div class="image phone"><div class="inner"><img src="images/screen.jpg" alt="" /></div></div>
+				<div class="fit"><div class="inner"><img height="400" width="400" src="images/jason-logo-transparent.png" alt="" /></div></div>
 			</header>
+
+			<div class="navbar" id="navbar">
+				<a href="./index.html">Home</a>
+				<a href="./about.html">About</a>
+				<a href="./recommendations.html">Reviews</a>
+			</div>
 
 		<!-- One -->
 			<section id="one" class="wrapper style2 special">
@@ -427,6 +431,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/sticky-navbar.js"></script>
 
 	</body>
 </html>

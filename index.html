@@ -11,83 +11,141 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="assets/css/navbar.css" />
+		<link rel="stylesheet" href="assets/css/carousel.css" />
+		<link rel="stylesheet" href="assets/css/index.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
 
 		<!-- Header -->
+		<div class="navbar" id="navbar">
+			<a href="./index.html">Home</a>
+			<a href="./about.html">About</a>
+			<a href="./courses.html">Courses</a>
+			<a href="./references.html">Testimonials</a>
+			<a href="./contact.html">Contact</a>
+		</div>
 			<header id="header">
 				<div class="content">
 					<h1><a href="#">Teacher Jason</a></h1>
 					<p>Headline text for people to read<br />
 					that sounds super cool</p>
-					<ul class="actions">
-						<li><a href="#navbar" class="button icon solid fa-chevron-down scrolly">Learn More</a></li>
-					</ul>
+					<a href="./contact.html"><button>Free Consultation</button></a>
 				</div>
 				<div class="fit"><div class="inner"><img height="400" width="400" src="images/jason-logo-transparent.png" alt="" /></div></div>
 			</header>
 
-			<div class="navbar" id="navbar">
-				<a href="./index.html">Home</a>
-				<a href="./about.html">About</a>
-				<a href="./references.html">Reviews</a>
-				<a href="./courses.html">Courses</a>
-				<a href="./pictures.html">Pictures</a>
-				<a href="./contact.html">Contact</a>
-			</div>
 
 		<!-- One -->
-			<section id="one" class="wrapper style2 special content">
-				<header class="major">
-					<h2>Sed ipsum magna lorem tempus amet<br />
+
+			<section id="one" class="wrapper style2 special">
+				<header>
+					<h2>Sed ipsum magna lorem tempus amet<br>
 					vehicula et gravida elementum</h2>
 				</header>
-				<ul class="icons major">
-					<li><span class="icon solid fa-camera-retro"><span class="label">Shoot</span></span></li>
-					<li><span class="icon solid fa-sync"><span class="label">Process</span></span></li>
-					<li><span class="icon solid fa-cloud"><span class="label">Upload</span></span></li>
-				</ul>
 			</section>
 
-		<!-- Two -->
-			<section id="two" class="wrapper">
-				<div class="inner alt">
-					<section class="spotlight">
-						<div class="image"><img src="images/pic01.jpg" alt="" /></div>
-						<div class="content">
-							<h3>Magna sed ultrices</h3>
-							<p>Morbi mattis ornare ornare. Duis quam turpis, gravida at leo elementum elit fusce accumsan dui libero, quis vehicula lectus ultricies eu. In convallis amet leo non sapien iaculis efficitur consequat lorem ipsum.</p>
-						</div>
-					</section>
-					<section class="spotlight">
-						<div class="image"><img src="images/pic02.jpg" alt="" /></div>
-						<div class="content">
-							<h3>Ultrices nullam aliquam</h3>
-							<p>Morbi mattis ornare ornare. Duis quam turpis, gravida at leo elementum elit fusce accumsan dui libero, quis vehicula lectus ultricies eu. In convallis amet leo non sapien iaculis efficitur consequat lorem ipsum.</p>
-						</div>
-					</section>
-					<section class="spotlight">
-						<div class="image"><img src="images/pic03.jpg" alt="" /></div>
-						<div class="content">
-							<h3>Aliquam sed magna</h3>
-							<p>Morbi mattis ornare ornare. Duis quam turpis, gravida at leo elementum elit fusce accumsan dui libero, quis vehicula lectus ultricies eu. In convallis amet leo non sapien iaculis efficitur consequat lorem ipsum.</p>
-						</div>
-					</section>
-					<section class="special">
-						<ul class="icons labeled">
-							<li><span class="icon solid fa-camera-retro"><span class="label">Ipsum lorem accumsan</span></span></li>
-							<li><span class="icon solid fa-sync"><span class="label">Sed vehicula elementum</span></span></li>
-							<li><span class="icon solid fa-cloud"><span class="label">Elit fusce consequat</span></span></li>
-							<li><span class="icon solid fa-code"><span class="label">Lorem nullam tempus</span></span></li>
-							<li><span class="icon solid fa-desktop"><span class="label">Adipiscing amet sapien</span></span></li>
-						</ul>
-					</section>
+		<!-- Slideshow container -->
+			<section class="slideshow-container wrapper">
+
+				<!-- Full-width images with number and caption text -->
+				<div class="mySlides fade">
+				<img class="carousel-image" src="./images/pic01.jpg" style="width:100%">
+				<!-- <div class="text">Caption Text</div> -->
 				</div>
+			
+				<div class="mySlides fade">
+				<div class="numbertext">2 / 3</div>
+				<img class="carousel-image" src="./images/pic02.jpg" style="width:100%">
+				</div>
+			
+				<div class="mySlides fade">
+				<div class="numbertext">3 / 3</div>
+				<img class="carousel-image" src="./images/pic03.jpg" style="width:100%">
+				</div>
+			
+				<!-- Next and previous buttons -->
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+			</section>
+			<br>
+			
+
+			<section class="courses-summary-container wrapper">
+				<header>
+					<h3>
+						What I Offer
+					</h3>
+				</header>
+				<section class="courses-summary-content">
+					<div>
+						<h5>
+							Tutoring
+						</h5>
+						<ul>
+							<li>AP US History</li>
+							<li>AP European History</li>
+							<li>AP World History</li>
+						</ul>
+					</div>
+					<div>
+						<h5>
+							Test Prep
+						</h5>
+						<ul>
+							<li>SAT</li>
+							<li>TOEFL</li>
+							<li>GMAT</li>
+							<li>SSAT</li>
+						</ul>
+					</div>
+					<div>
+						<h5>
+							Essay Writing
+						</h5>
+						<ul>
+							<li>Academic Writing</li>
+							<li>Business Writing</li>
+						</ul>
+					</div>
+					<div>
+						<h5>
+							Adult Education
+						</h5>
+						<ul>
+							<li>Business English</li>
+							<li>Conversational English</li>
+						</ul>
+					</div>
+				</section>
+			</section>
+
+			<section class="wrapper style2 special">
+				<h3>Teacher Jason's Office</h3>
+				<section class="contact-content">
+					<section class="contact-text">
+						<p>No. 101 Ren'ai Road, Section 4 9F</br>
+						   Da'an District, Taipei City 106</p>
+						<p>0966-550-472</p>
+						<p>jasonkao@gmail.com</p>
+					</section>
+					<div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.8626766213224!2d121.54613021419405!3d25.038733944257345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442abd0286edca9%3A0xbc90bcf10665f39!2sNo.%20101%2C%20Section%204%2C%20Ren&#39;ai%20Rd%2C%20Da%E2%80%99an%20District%2C%20Taipei%20City%2C%20106!5e0!3m2!1sen!2stw!4v1661999401013!5m2!1sen!2stw" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+				</section>
+				<!-- Contact Form -->
+			<section>
+	
+				</section>
+			</section>
+
+			<section>
+				<section>About Summary</section>
+				<section>Pictures</section>
+				<section>What I Offer</section>
+				<section>Contact Information (No email form)</section>
 			</section>
 
 		<!-- Three -->
-			<section id="three" class="wrapper style2 special">
+			<!-- <section id="three" class="wrapper style2 special">
 				<header class="major">
 					<h2>Magna leo sapien gravida</h2>
 					<p>Gravida at leo elementum elit fusce accumsan dui libero, quis vehicula<br />
@@ -414,7 +472,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 					</section>
 
 				</div>
-			</section>
+			</section> -->
 		
 
 		<!-- Footer -->
@@ -435,6 +493,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			<script src="assets/js/sticky-navbar.js"></script>
+			<script src="assets/js/carousel.js"></script>
 
 	</body>
 </html>

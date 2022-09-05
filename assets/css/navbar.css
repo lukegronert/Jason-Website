@@ -4,17 +4,28 @@
     background-color: navy;
     z-index: 1;
   }
-  
+
   /* Navbar links */
-  .navbar a {
+  .navbar .link {
     float: left;
-    display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px;
+    padding-left: 19px;
+    padding-right: 19px;
     text-decoration: none;
+    vertical-align: center;
+    line-height: 60px;
   }
   
+  .navbar-logo {
+    padding: 5px;
+    margin: auto;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+  }
+
   /* Page content */
   .content {
     padding: 16px;
@@ -33,8 +44,9 @@
   }
 
   @media screen and (max-width: 500px) {
-    .navbar a {
+    .navbar .link {
         font-size: small;
-        padding: 8px;
+        padding-left: 8px;
+        padding-right: 8px;
     }
   }

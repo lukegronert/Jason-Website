@@ -3,6 +3,9 @@
     overflow: hidden;
     background-color: navy;
     z-index: 1;
+    position: fixed;
+    top: 0;
+    width: 100%;
   }
 
   /* Navbar links */

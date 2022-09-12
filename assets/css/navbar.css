@@ -29,6 +29,11 @@
     text-decoration: none;
   }
 
+  .navbar-logo img {
+    height: 50px;
+    width: 50px;
+  }
+
   /* Page content */
   .content {
     padding: 16px;
@@ -51,5 +56,11 @@
         font-size: small;
         padding-left: 8px;
         padding-right: 8px;
+        line-height: 50px;
+    }
+
+    .navbar-logo img {
+      height: 40px;
+      width: 40px;
     }
   }

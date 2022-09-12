@@ -7,15 +7,45 @@
 .contact-content {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
 }
 
 @media screen and (min-width: 600px) {
     .contact-content {
         flex-direction: row;
         justify-content: space-around;
+        align-items:flex-start;
+    }
+}
+
+.contact-content-text {
+    width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+    .contact-content-text {
+        width: 45%;
     }
 }
 
 .form-section {
-    width: 45%;
+    width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+    .form-section {
+        width: 45%;
+    }
+}
+
+.google-maps iframe {
+    width: 100% !important;
+    height: 100% !important;
+    min-height: 400px;
+}
+
+@media screen and (min-wdith: 600px) {
+    .google-maps iframe {
+        min-height: 300px;
+    }
 }

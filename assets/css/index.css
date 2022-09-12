@@ -11,11 +11,16 @@
     flex-direction: column;
     width: 100%;
     justify-content: space-around;
+    padding: 0 50px 0 50px;
 }
 
 .courses-summary-content h5 {
     text-align: center;
     text-decoration: underline;
+}
+
+.courses-summary-content div ul {
+    text-align: center;
 }
 
 @media screen and (min-width: 600px) {

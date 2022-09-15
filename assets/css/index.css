@@ -21,8 +21,15 @@
 }
 
 .courses-summary-content div {
-    width: 30%;
+    width: 100%;
 }
+
+@media screen and (min-width: 600px) {
+    .courses-summary-content div {
+        width: 30%;
+    }
+}
+
 .courses-summary-content h5 {
     text-align: center;
     text-decoration: underline;

@@ -1,3 +1,21 @@
+.about-bg {
+    background-image: url('../../images/title-pic2.jpg');
+    background-position-y: 40%;
+}
+
+.courses-bg {
+    background-image: url('../../images/locker-picture.jpg');
+}
+
+.testimonials-bg {
+    background-image: url('../../images/title-pic3.jpg');
+    background-position-y: 50%;
+}
+
+.contact-bg {
+    background-image: url('../../images/title-pic4.jpg');
+}
+
 .header-picture-container {
     width: 100%;
     margin: auto;
@@ -6,7 +24,6 @@
     color: white;
     margin-top: 70px;
     height: 150px;
-    background-image: url('../../images/locker-picture.jpg');
     background-size: cover;
 }
 

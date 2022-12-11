@@ -1,9 +1,17 @@
 .letter-of-rec {
-    transition:transform 0.25s ease;
+  transition: transform 0.25s ease;
 }
 
 .letter-of-rec:hover {
-    -webkit-transform:scale(1.3); /* or some other value */
-    transform:scale(1.3);
-    cursor: pointer;
+  -webkit-transform: scale(1.3); /* or some other value */
+  transform: scale(1.3);
+  cursor: pointer;
+}
+
+.section-padding-bottom {
+  padding-bottom: 4em;
+}
+
+a {
+  text-decoration: underline;
 }

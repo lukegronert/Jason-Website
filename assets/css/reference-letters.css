@@ -15,3 +15,7 @@
 a {
   text-decoration: underline;
 }
+
+.content-right {
+  text-align: right;
+}

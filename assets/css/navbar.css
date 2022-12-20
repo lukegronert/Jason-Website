@@ -24,6 +24,7 @@ body {
   text-decoration: none;
   vertical-align: center;
   line-height: 60px;
+  font-weight: 700;
 }
 
 .navbar-logo {
@@ -60,7 +61,6 @@ body {
 @media screen and (max-width: 500px) {
   .navbar .link {
     font-size: small;
-    font-weight: 700;
     padding-left: 8px;
     padding-right: 0px;
     line-height: 50px;

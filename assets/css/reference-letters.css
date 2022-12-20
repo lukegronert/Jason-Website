@@ -16,6 +16,14 @@ a {
   text-decoration: underline;
 }
 
-.content-right {
-  text-align: right;
+.newspaper-header {
+  text-align: center;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
 }

@@ -1,72 +1,73 @@
-@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
 
 body {
-    font-family: 'Karla', sans-serif;
+  font-family: "Karla", sans-serif;
 }
 
 /* Style the navbar */
 .navbar {
-    overflow: hidden;
-    background-color: navy;
-    z-index: 1;
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
+  overflow: hidden;
+  background-color: navy;
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 
-  /* Navbar links */
+/* Navbar links */
+.navbar .link {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding-left: 19px;
+  padding-right: 19px;
+  text-decoration: none;
+  vertical-align: center;
+  line-height: 60px;
+}
+
+.navbar-logo {
+  padding: 5px;
+  margin: auto;
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+}
+
+.navbar-logo img {
+  height: 50px;
+  width: 50px;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
+
+@media screen and (max-width: 500px) {
   .navbar .link {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding-left: 19px;
-    padding-right: 19px;
-    text-decoration: none;
-    vertical-align: center;
-    line-height: 60px;
-  }
-  
-  .navbar-logo {
-    padding: 5px;
-    margin: auto;
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    text-decoration: none;
+    font-size: small;
+    font-weight: 700;
+    padding-left: 8px;
+    padding-right: 0px;
+    line-height: 50px;
   }
 
   .navbar-logo img {
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
   }
-
-  /* Page content */
-  .content {
-    padding: 16px;
-  }
-  
-  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
-  .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
-  
-  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
-  .sticky + .content {
-    padding-top: 60px;
-  }
-
-  @media screen and (max-width: 500px) {
-    .navbar .link {
-        font-size: small;
-        padding-left: 8px;
-        padding-right: 8px;
-        line-height: 50px;
-    }
-
-    .navbar-logo img {
-      height: 40px;
-      width: 40px;
-    }
-  }
+}

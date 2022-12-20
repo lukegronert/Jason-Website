@@ -61,7 +61,7 @@ body {
 @media screen and (max-width: 500px) {
   .navbar .link {
     font-size: small;
-    padding-left: 8px;
+    padding-left: 12px;
     padding-right: 0px;
     line-height: 50px;
   }
